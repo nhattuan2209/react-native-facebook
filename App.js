@@ -44,20 +44,20 @@ const App = () => {
 
           tabBarIcon: ({ focused, color, size }) => {
             let iconName;
-            if (route.name === "Home") {
+            if (route.name === "Trang chủ") {
               iconName = focused ? 'home-sharp' : 'home-outline';
               color = focused ? '#1571F3' : 'gray';
               size = size + 6;
             } else if (route.name === "Video") {
               iconName = focused ? "tv-sharp" : "tv-outline";
               size = size + 6;
-            } else if (route.name === "Friends") {
+            } else if (route.name === "Bạn bè") {
               iconName = focused ? "people-sharp" : "people-outline";
               size = size + 6;
-            } else if (route.name === "Profile") {
+            } else if (route.name === "Hồ sơ") {
               iconName = focused ? "person-circle-sharp" : "person-circle-outline";
               size = size + 6;
-            } else if (route.name === "Notification") {
+            } else if (route.name === "Thông báo") {
               iconName = focused ? "notifications-sharp" : "notifications-outline";
               size = size + 6;
             } else if (route.name === "Menu") {
@@ -68,11 +68,11 @@ const App = () => {
           }
         })}
       >
-        <Tab.Screen name="Home" component={Home}/>
+        <Tab.Screen name="Trang chủ" component={Home}/>
         <Tab.Screen name="Video" component={Video}/>
-        <Tab.Screen name="Friends" component={Friends}/>
-        <Tab.Screen name="Profile" component={Profile}/>
-        <Tab.Screen name="Notification" component={Notification}/>
+        <Tab.Screen name="Bạn bè" component={Friends}/>
+        <Tab.Screen name="Hồ sơ" component={Profile}/>
+        <Tab.Screen name="Thông báo" component={Notification}/>
         <Tab.Screen name="Menu" component={Menu}/>
       </Tab.Navigator>
     )
