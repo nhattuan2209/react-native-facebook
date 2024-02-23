@@ -11,9 +11,9 @@ const Post = () => {
         postInfo.map((data, index) => {
           const [like, setLike] = useState(data.isLiked)
           return (
-            <View key={index}>
+            <View key={index} style={{}}>
               <View style={{ borderBottomWidth: 5, marginVertical: 10, borderBottomColor: 'gray', opacity: 0.4 }} />
-              <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+              <View style={{ flexDirection: 'row', justifyContent: 'space-between' ,paddingHorizontal: 5}}>
                 <View style={{ flexDirection: 'row', justifyContent: 'center' }}>
                   <Image source={data.postPersonImage} style={{ width: 45, height: 45, borderRadius: 100 }} />
                   <View style={{ paddingLeft: 5 }}>

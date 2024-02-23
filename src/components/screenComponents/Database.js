@@ -3,44 +3,74 @@
 export const storyInfo = [
     {
         id: 1,
-        // name: 'Your Story',
+        name: 'Your Story',
         image: require('../../storage/images/image1.jpg'),
     },{
         id: 0,
         name: 'User 1',
         image: require('../../storage/images/image2.jpg'),
+        friends: '33 bạn chung',
+        follow: false,
+        time: '1 ngày ',
     },{
         id: 0,
         name: 'User 2',
         image: require('../../storage/images/image3.jpg'),
+        friends: '33 bạn chung',
+        follow: false,
+        time: '1 ngày ',
     },{
         id: 0,
         name: 'User 3',
         image: require('../../storage/images/image4.jpg'),
+        friends: '33 bạn chung',
+        follow: false,
+        time: '1 ngày ',
+        
     },{
         id: 0,
         name: 'User 4',
         image: require('../../storage/images/image5.jpg'),
+        friends: '33 bạn chung',
+        follow: false,
+        time: '1 ngày ',
     },{
         id: 0,
         name: 'User 5',
         image: require('../../storage/images/image6.jpg'),
+        friends: '33 bạn chung',
+        follow: false,
+        time: '1 ngày ',
     },{
         id: 0,
         name: 'User 6',
         image: require('../../storage/images/image7.jpg'),
+        friends: '33 bạn chung',
+        follow: false,
+        time: '1 ngày ',
     },{
         id: 0,
         name: 'User 7',
         image: require('../../storage/images/image8.jpg'),
+        friends: '33 bạn chung',
+        time: '1 ngày trước',
+        friends: '33 bạn chung',
+        follow: false,
+        time: '1 ngày ',
     },{
         id: 0,
         name: 'User 8',
         image: require('../../storage/images/image9.jpg'),
+        friends: '33 bạn chung',
+        follow: false,
+        time: '1 ngày ',
     },{
         id: 0,
         name: 'User 9',
         image: require('../../storage/images/image10.jpg'),
+        friends: '33 bạn chung',
+        follow: false,
+        time: '1 ngày ',
     },
 ]
 

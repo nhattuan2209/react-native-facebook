@@ -5,7 +5,7 @@ import Icon from "react-native-vector-icons/FontAwesome5";
 
 const Stories = () => {
   return (
-    <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} style={{}}>
+    <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} style={{paddingHorizontal: 5}}>
       {
         storyInfo.map((data, index) => {
           return (
@@ -14,17 +14,19 @@ const Stories = () => {
                 {
                   data.id == 1 ?
                     (
-                      <View style={{ position: 'absolute', width: 120, height: 80, backgroundColor: 'red', }}>
-                        <View style={{}} />
-                        <Icon name="plus" style={{ color: 'blue', alignSelf: 'center', }} />
-                        <Text style={{ fontSize: 16, position: 'absolute', top: 160, color: 'black', alignSelf: 'center' }}>Tạo tin</Text>
+                      <View style={{ position: 'absolute', width: 118, height: 57, backgroundColor: '#fff', top: 125, left: 1, alignItems: 'center', justifyContent: 'center', borderBottomEndRadius: 10  }}>
+                        <View style={{position: 'absolute', bottom: 35, alignSelf: 'center',backgroundColor: '#fff', width: 50, height: 50, borderRadius: 100, borderWidth: 4, borderColor: '#fff', }}>
+                          <View style={{ alignSelf: 'center', backgroundColor: '#1877F2', width: 40, height: 40, borderRadius: 100, borderColor: '#fff', }}>
+                            <Text style={{ color: 'white', fontSize: 30, textAlign: 'center', }}>+</Text>
+                          </View>
+                        </View>
                       </View>
 
                     ) : null
                 }
               </View>
-              <View style={{ width: 130, height: 200, position: 'relative' }}>
-                <Image source={data.image} style={{ resizeMode: 'cover', width: '92%', height: '92%', borderRadius: 10 }} />
+              <View style={{ width: 120, height: 185, position: 'relative',  borderWidth: 0.5, borderRadius: 10,marginRight: 10}}>
+                <Image source={data.image} style={{ resizeMode: 'cover', width: '100%', height: '100%', borderRadius: 10,  }} />
                 <Text style={{ fontSize: 16, position: 'absolute', top: 160, color: '#fff', paddingLeft: 10 }}>{data.name}</Text>
               </View>
             </TouchableOpacity>
