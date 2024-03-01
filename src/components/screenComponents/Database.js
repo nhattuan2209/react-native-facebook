@@ -13,14 +13,14 @@ export const storyInfo = [
         follow: false,
         time: '1 ngày ',
     },{
-        id: 0,
+        id: 2,
         name: 'User 2',
         image: require('../../storage/images/image3.jpg'),
         friends: '33 bạn chung',
         follow: false,
         time: '1 ngày ',
     },{
-        id: 0,
+        id: 3,
         name: 'User 3',
         image: require('../../storage/images/image4.jpg'),
         friends: '33 bạn chung',
@@ -28,28 +28,28 @@ export const storyInfo = [
         time: '1 ngày ',
         
     },{
-        id: 0,
+        id: 4,
         name: 'User 4',
         image: require('../../storage/images/image5.jpg'),
         friends: '33 bạn chung',
         follow: false,
         time: '1 ngày ',
     },{
-        id: 0,
+        id: 5,
         name: 'User 5',
         image: require('../../storage/images/image6.jpg'),
         friends: '33 bạn chung',
         follow: false,
         time: '1 ngày ',
     },{
-        id: 0,
+        id: 6,
         name: 'User 6',
         image: require('../../storage/images/image7.jpg'),
         friends: '33 bạn chung',
         follow: false,
         time: '1 ngày ',
     },{
-        id: 0,
+        id: 7,
         name: 'User 7',
         image: require('../../storage/images/image8.jpg'),
         friends: '33 bạn chung',
@@ -58,14 +58,14 @@ export const storyInfo = [
         follow: false,
         time: '1 ngày ',
     },{
-        id: 0,
+        id: 8,
         name: 'User 8',
         image: require('../../storage/images/image9.jpg'),
         friends: '33 bạn chung',
         follow: false,
         time: '1 ngày ',
     },{
-        id: 0,
+        id: 9,
         name: 'User 9',
         image: require('../../storage/images/image10.jpg'),
         friends: '33 bạn chung',
@@ -202,4 +202,51 @@ export const FriendsProfileData =[
         following: 210,
         follow: false,
     },
+]
+// Notification Data
+
+export const NotificationData =[
+    {
+        id: 2,
+        name: 'User 2',
+        image: require('../../storage/images/image3.jpg'),
+        title: 'đã thêm ảnh mới: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
+        time: '1 ngày ',
+    },{
+        id: 4,
+        name: 'User 4',
+        image: require('../../storage/images/image5.jpg'),
+        title: 'có một bài viết mới: Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.  ',
+        time: '1 ngày ',
+    },{
+        id: 6,
+        name: 'User 6',
+        image: require('../../storage/images/image7.jpg'),
+        title: 'đã bày tỏ cảm xúc về bình luận của bạn : <3',
+        time: '1 ngày ',
+    },{
+        id: 7,
+        name: 'User 7',
+        image: require('../../storage/images/image8.jpg'),
+        title: 'đã thêm ảnh mới: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
+        time: '1 ngày ',
+    },{
+        id: 2,
+        name: 'User 2',
+        image: require('../../storage/images/image3.jpg'),
+        title: 'đã thêm ảnh mới: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
+        time: '1 ngày ',
+    },{
+        id: 4,
+        name: 'User 4',
+        image: require('../../storage/images/image5.jpg'),
+        title: 'có một bài viết mới: Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.  ',
+        time: '1 ngày ',
+    },{
+        id: 6,
+        name: 'User 6',
+        image: require('../../storage/images/image7.jpg'),
+        title: 'đã bày tỏ cảm xúc về bình luận của bạn : <3',
+        time: '1 ngày ',
+    }
 ]

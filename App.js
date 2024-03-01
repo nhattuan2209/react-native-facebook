@@ -39,7 +39,8 @@ const App = () => {
             height: 50,
           },
           tabBarLabelStyle: {
-            fontSize: 12
+            fontSize: 15,
+            color: 'black'
           },
 
           tabBarIcon: ({ focused, color, size }) => {
