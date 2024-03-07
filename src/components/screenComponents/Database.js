@@ -4,7 +4,7 @@ export const storyInfo = [
     {
         id: 1,
         name: 'Your Story',
-        image: require('../../storage/images/image1.jpg'),
+        image: require('../../storage/images/ava.jpg'),
     },{
         id: 0,
         name: 'User 1',

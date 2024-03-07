@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Video = () => {
+const ProfilePhoto = () => {
   return (
     <View>
-      <Text>Video</Text>
+      <Text>ProfilePhoto</Text>
     </View>
   )
 }
 
-export default Video
+export default ProfilePhoto

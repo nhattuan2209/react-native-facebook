@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import Stories from '../screenComponents/Stories';
 import Post from '../screenComponents/Post';
-import Avatar from '../../storage/images/image5.jpg';
+import Avatar from '../../storage/images/ava.jpg';
 
 const Home = () => {
   return (

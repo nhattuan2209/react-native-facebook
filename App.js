@@ -19,7 +19,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack"
 import { NavigationContainer } from '@react-navigation/native'
 import Ionic from 'react-native-vector-icons/Ionicons';
 import Home from './src/components/screens/Home';
-import Video from './src/components/screens/Video';
+import Videos from './src/components/screens/Videos';
 import Friends from './src/components/screens/Friends';
 import Notification from './src/components/screens/Notification';
 import Profile from './src/components/screens/Profile';
@@ -49,7 +49,7 @@ const App = () => {
               iconName = focused ? 'home-sharp' : 'home-outline';
               color = focused ? '#1571F3' : 'gray';
               size = size + 6;
-            } else if (route.name === "Video") {
+            } else if (route.name === "Videos") {
               iconName = focused ? "tv-sharp" : "tv-outline";
               size = size + 6;
             } else if (route.name === "Bạn bè") {
@@ -70,7 +70,7 @@ const App = () => {
         })}
       >
         <Tab.Screen name="Trang chủ" component={Home}/>
-        <Tab.Screen name="Video" component={Video}/>
+        <Tab.Screen name="Videos" component={Videos}/>
         <Tab.Screen name="Bạn bè" component={Friends}/>
         <Tab.Screen name="Hồ sơ" component={Profile}/>
         <Tab.Screen name="Thông báo" component={Notification}/>

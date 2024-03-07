@@ -6,15 +6,15 @@ import { useState } from 'react';
 const Friends = () => {
   return (
     <View>
-      <ScrollView>
-        <View style={{ padding: 10, justifyContent: 'space-between', flexDirection: 'row' }}>
-          <Text style={{ fontSize: 30, fontWeight: 'bold', color: 'black' }}>Bạn bè</Text>
-          <View>
-            <TouchableOpacity style={{ borderColor: '#D3D3D3', borderRadius: 100, borderWidth: 1, backgroundColor: '#D3D3D3', justifyContent: 'center', alignItems: 'center', width: 35, height: 35, marginRight: 10 }}>
-              <Icon name='search' style={{ fontSize: 20, color: 'black', }} />
-            </TouchableOpacity>
-          </View>
+      <View style={{ padding: 10, justifyContent: 'space-between', flexDirection: 'row' }}>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: 'black' }}>Bạn bè</Text>
+        <View>
+          <TouchableOpacity style={{ borderColor: '#D3D3D3', borderRadius: 100, borderWidth: 1, backgroundColor: '#D3D3D3', justifyContent: 'center', alignItems: 'center', width: 35, height: 35, marginRight: 10 }}>
+            <Icon name='search' style={{ fontSize: 20, color: 'black', }} />
+          </TouchableOpacity>
         </View>
+      </View>
+      <ScrollView>
         <View style={{ padding: 10, flexDirection: 'row' }}>
           <TouchableOpacity style={{ borderColor: '#D3D3D3', borderRadius: 30, borderWidth: 1, backgroundColor: '#D3D3D3', justifyContent: 'center', alignItems: 'center', width: 70, height: 40, marginRight: 10 }}>
             <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black', }}>Gợi ý</Text>
@@ -52,7 +52,7 @@ const Friends = () => {
                             <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
                               <TouchableOpacity onPress={() => setFollow(!follow)}>
                                 <View style={{ width: 129, height: 35, borderRadius: 5, backgroundColor: '#3493D9', borderWidth: 1, borderColor: '#DEDEDE', justifyContent: 'center' }}>
-                                  <Text style={{ color: '#fff', alignSelf: 'center' }}>{follow ? 'Đã xác nhận' : 'Xác nhận' }</Text>
+                                  <Text style={{ color: '#fff', alignSelf: 'center' }}>{follow ? 'Đã xác nhận' : 'Xác nhận'}</Text>
                                 </View>
                               </TouchableOpacity>
                               <TouchableOpacity onPress={() => setClose(true)}>

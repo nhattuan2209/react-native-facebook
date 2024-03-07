@@ -26,7 +26,7 @@ const Menu = () => {
         </View>
         <View style={{ borderRadius: 15, backgroundColor: '#fff', paddingHorizontal: 10, marginHorizontal: 10, height: 70, marginVertical: 20, marginBottom: 35, justifyContent: 'space-between', flexDirection: 'row', alignItems: 'center' }}>
           <View style={{ flexDirection: 'row', alignSelf: 'center' }}>
-            <Image source={require('../../storage/images/image7.jpg')} style={{ width: 50, height: 50, borderRadius: 100 }} />
+            <Image source={require('../../storage/images/ava.jpg')} style={{ width: 50, height: 50, borderRadius: 100 }} />
             <Text style={{ fontSize: 22, fontWeight: 'bold', color: 'black', paddingLeft: 10, alignSelf: 'center' }}>Nhật Tuấn</Text>
           </View>
           <View style={{ backgroundColor: '#D3D3D3', borderRadius: 100, width: 35, height: 35, alignItems: 'center', justifyContent: 'center' }}>
