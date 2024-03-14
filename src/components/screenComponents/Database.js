@@ -85,7 +85,8 @@ export const postInfo = [
         likes: 765,
         comments: '68 bình luận',
         shares: '20 lượt chia sẻ',
-        isLiked: false
+        isLiked: false,
+        video: require('../../storage/videos/video1.mp4')
     },
     {
         poster: 'user 3',
@@ -96,7 +97,9 @@ export const postInfo = [
         shares: '20 lượt chia sẻ',
         description: 'Beauty Nature', 
         likes: 765,
-        isLiked: false
+        isLiked: false,
+        video: require('../../storage/videos/video2.mp4')
+
     },{
         poster: 'user 4',
         postPersonImage: require('../../storage/images/image3.jpg'),
@@ -106,7 +109,9 @@ export const postInfo = [
         likes: 765,
         comments: '68 bình luận',
         shares: '20 lượt chia sẻ',
-        isLiked: false
+        isLiked: false,
+        video: require('../../storage/videos/video3.mp4')
+
     },{
         poster: 'user 5',
         postPersonImage: require('../../storage/images/image4.jpg'),
@@ -116,7 +121,9 @@ export const postInfo = [
         likes: 765,
         comments: '68 bình luận',
         shares: '20 lượt chia sẻ',
-        isLiked: false
+        isLiked: false,
+        video: require('../../storage/videos/video4.mp4')
+
     },
 ]
 // Friends Profile Data
