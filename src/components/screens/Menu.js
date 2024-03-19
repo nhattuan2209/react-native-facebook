@@ -1,7 +1,8 @@
-import { View, Text, ScrollView, TouchableOpacity, Image } from 'react-native'
+import { View, Text, ScrollView, TouchableOpacity, Image, Alert } from 'react-native'
 import React, { useState } from 'react'
 import Icon from 'react-native-vector-icons/FontAwesome5'
 import Feather from 'react-native-vector-icons/Feather';
+import auth from '@react-native-firebase/auth';
 
 
 const Menu = () => {
@@ -10,6 +11,11 @@ const Menu = () => {
   const [showMoreSetting, setShowMoreSetting] = useState(false);
   const [showMore, setShowMore] = useState(false);
 
+  const onLogout = () => {
+    auth()
+      .signOut()
+      .then(() => Alert.alert('User signed out!')).catch(error => console.log('error: ', error));
+  };
   return (
     <View style={{ flex: 1, backgroundColor: '#F0F2F5' }}>
       <ScrollView>
@@ -206,9 +212,9 @@ const Menu = () => {
           </View>
         ) : null}
         {/* end */}
-        <View style={{ width: '95%', height: 30, backgroundColor: '#D3D3D3', justifyContent: 'center', alignSelf: 'center', marginVertical: 20 }}>
+        <TouchableOpacity onPress={onLogout} style={{ width: '95%', height: 30, backgroundColor: '#D3D3D3', justifyContent: 'center', alignSelf: 'center', marginVertical: 20 }}>
           <Text style={{ textAlign: 'center', color: 'black', fontSize: 16, fontWeight: '500' }}>Đăng xuất</Text>
-        </View>
+        </TouchableOpacity>
       </ScrollView>
     </View>
   )
